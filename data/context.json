@@ -7,5 +7,6 @@
     "md",
     "sd",
     "ab"
-  ]
+  ],
+  "cleanup": "sponge"
 }

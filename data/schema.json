@@ -29,12 +29,16 @@
           "type": "string"
         }
       ]
+    },
+    "cleanup": {
+      "type": "string"
     }
   },
   "required": [
     "internal",
     "project_code",
-    "prefixes"
+    "prefixes",
+    "cleanup"
   ]
 }
 

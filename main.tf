@@ -13,3 +13,7 @@ output "project_code" {
 output "prefixes" {
   value = local.data.prefixes
 }
+
+output "cleanup" {
+  value = local.data.cleanup
+}
