@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "internal": {
+      "type": "object",
+      "properties": {
+        "appid": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "appid"
+      ]
+    },
+    "project_code": {
+      "type": "string"
+    },
+    "prefixes": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "required": [
+    "internal",
+    "project_code",
+    "prefixes"
+  ]
+}
+

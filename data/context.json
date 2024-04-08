@@ -1,0 +1,11 @@
+{
+  "internal": {
+    "appid": "X1234"
+  },
+  "project_code": "modern_data",
+  "prefixes": [
+    "md",
+    "sd",
+    "ab"
+  ]
+}
